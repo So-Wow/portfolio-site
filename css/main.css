@@ -1,0 +1,25 @@
+/**** BASE STYLES ****/
+body {
+  font-family: 'Open Sans' sans-serif;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+/**** GRID STYLES ****/
+
+.full-width {
+  width: 100%
+  margin 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 33%;
+  float: left;
+}
