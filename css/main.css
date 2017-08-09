@@ -1,16 +1,26 @@
 /**** BASE STYLES ****/
 body {
-  font-family: 'Open Sans' sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 #about, #work, #contact {
   height: 600px;
 }
 
+main {
+  height: auto;
+}
+
+.container {
+  margin-left: 25px;
+}
+
+
 /**** GRID STYLES ****/
 
 .full-width {
-  width: 100%
+  width: 100%;
   margin 0 auto;
 }
 
@@ -22,4 +32,52 @@ body {
 .third-width {
   width: 33%;
   float: left;
+  text-align: center;
+}
+
+
+/**** HEADER ****/
+
+header {
+  height: 400px;
+  background: #f41d6c;
+}
+
+header h2 {
+  font-size: 50px;
+}
+
+header h3 {
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+/**** ABOUT ****/
+
+#about {
+  padding-top: 20px;
+}
+
+#skills {
+  padding-top: 20px;
+  clear: both;
+}
+
+#skills h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+/**** WORK ****/
+#work {
+  background: #425773;
+}
+
+/**** CONTACT ****/
+
+#contact{
+background: #ffcf5c;
 }
