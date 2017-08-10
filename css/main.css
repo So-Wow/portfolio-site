@@ -16,12 +16,9 @@ main {
 .container {
   padding-left: 25px;
   display: block;
+  clear: both;
 }
 
-#about, #work, #contact {
-  height: 600px;
-  padding-top: 20px;
-}
 
 h3 {
   font-family: 'pixeled';
@@ -34,6 +31,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 3px;
+  font-size: 20px;
 }
 
 
@@ -86,10 +84,13 @@ a {
 /**** ABOUT ****/
 
 #about {
-  color: #184253
+  height: 800px;
+  color: #184253;
+  border: 5px dashed #184253;
 }
 
 #skills {
+  height: auto;
   padding-top: 30px;
   clear: both;
 }
@@ -98,7 +99,7 @@ a {
   font-size: 24px;
 }
 
-#about-text p {
+#about-text {
   font-size: 25px;
   text-align: left;
 }
@@ -106,12 +107,23 @@ a {
 
 /**** WORK ****/
 #work {
+  height: 600px;
+  padding: 20px;
   background: #425773;
 }
+
 
 /**** CONTACT ****/
 
 #contact {
+height: 400px;
+padding-top: 1px;
 background: #ffcf5c;
-color: #184253
+color: #184253;
+border: 5px dashed #FFFFFF;
+}
+
+#social-media {
+  float: left;
+  display: inline-block;
 }
