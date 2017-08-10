@@ -1,12 +1,12 @@
 /**** BASE STYLES ****/
+@font-face {
+  font-family: 'pixeled';
+  src: url('../fonts/pixeled.ttf') format('truetype');
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-}
-
-#about, #work, #contact {
-  height: 600px;
-  padding-top: 20px;
 }
 
 main {
@@ -18,14 +18,22 @@ main {
   display: block;
 }
 
+#about, #work, #contact {
+  height: 600px;
+  padding-top: 20px;
+}
+
 h3 {
-  font-family: 'Source Code Pro', monospace;
-  text-transform: uppercase;
+  font-family: 'pixeled';
+  font-weight: normal;
+  font-style: normal;
 }
 
 h4 {
   font-family: 'Source Code Pro', monospace;
   text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
 
 
@@ -47,11 +55,16 @@ h4 {
   text-align: center;
 }
 
+.third-width p {
+  padding: 0 23% 0 23%;
+}
+
 
 /**** HEADER ****/
 
 header {
-  height: 400px;
+  height: 800px;
+  padding-left: 25px;
   background: #f41d6c;
 }
 
@@ -60,7 +73,13 @@ header h2 {
 }
 
 header h3 {
-  font-size: 35px;
+  font-size: 32px;
+}
+
+a {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  color: inherit;
 }
 
 
@@ -76,11 +95,12 @@ header h3 {
 }
 
 #skills h3 {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 #about-text p {
   font-size: 25px;
+  text-align: left;
 }
 
 
