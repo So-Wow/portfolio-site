@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 main {
@@ -34,6 +34,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 3px;
+  font-size: 24px;
 }
 
 
@@ -98,7 +99,7 @@ a {
   font-size: 24px;
 }
 
-#about-text p {
+#about #about-text p {
   font-size: 25px;
   text-align: left;
 }
