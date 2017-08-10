@@ -14,9 +14,12 @@ main {
 }
 
 .container {
-  padding-left: 25px;
+  padding: 0 30px 0 30px;
   display: block;
   clear: both;
+  max-width: 960px;
+  margin: 0 auto;
+
 }
 
 
@@ -39,7 +42,6 @@ h4 {
 
 .full-width {
   width: 100%;
-  margin 0 auto;
 }
 
 .half-width {
@@ -91,7 +93,7 @@ a {
 
 #skills {
   height: auto;
-  padding-top: 30px;
+  padding-top: 20px;
   clear: both;
 }
 
@@ -116,7 +118,7 @@ a {
 /**** CONTACT ****/
 
 #contact {
-height: 400px;
+height: 300px;
 padding-top: 1px;
 background: #ffcf5c;
 color: #184253;
