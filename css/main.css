@@ -14,33 +14,24 @@ main {
 }
 
 .container {
-  padding-left: 25px;
-  display: block;
+  display: inline-block;
+}
+
+#about, #work .container {
+  padding: 80px 0 25px 0;
 }
 
 #about, #work, #contact {
-  height: 600px;
-  padding-top: 20px;
-  padding-left: 45px;
+  height: auto;
+  padding: 0 0 48px 45px;
   display: block;
-  padding-bottom: 48px;
-}
-
-#about, #work, #contact {
-  height: 33%;
-  padding-top: 20px;
   clear: both;
-}
-
-#about, #work {
-  padding-bottom: 100px;
 }
 
 h3 {
   font-family: 'pixeled';
   font-weight: normal;
   font-style: normal;
-  padding-left: 10px;
 }
 
 h4 {
@@ -84,8 +75,8 @@ a {
 /**** HEADER ****/
 
 header {
-  height: 900px;
-  padding-left: 25px;
+  height: 400px;
+  padding: 20px 0 0 25px;
   background: url('../img/hero-image.png') no-repeat;
   background-size: cover;
   background-position: center;
@@ -93,6 +84,7 @@ header {
 
 header h2 {
   font-size: 60px;
+  color: #ffffff;
 }
 
 header h3 {
@@ -103,16 +95,23 @@ header h3 {
 /**** ABOUT ****/
 
 #about {
-  height: 800px;
-=======
   color: #184253;
   border: 5px dashed #ffb400;
->>>>>>> experiments
+}
+
+#about .full-width {
+  padding-bottom: 48px;
 }
 
 #about #about-text {
   font-size: 25px;
   text-align: left;
+  padding-top: 20px;
+}
+
+#logo {
+  max-width: 50%;
+  padding-left: 25%;
 }
 
 #skills {
@@ -130,14 +129,15 @@ header h3 {
 }
 
 
-
 /**** WORK ****/
+
 #work {
   background: #184253;
+  padding-top: 10px;
 }
 
 #work h3 {
-  padding-bottom: 24px;
+  padding-bottom: 25px;
 }
 
 #portfolio {
@@ -145,10 +145,8 @@ header h3 {
 }
 
 #portfolio .container {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding: 48px 0 48px 0;
 }
-
 
 .portfolio-image {
   max-width: 70%;
@@ -160,13 +158,20 @@ header h3 {
 /**** CONTACT ****/
 
 #contact {
-height: 300px;
 padding-top: 1px;
 background: #ffb400;
 color: #184253;
 border: 5px dashed #FFFFFF;
 }
 
+#contact .container {
+  width: 100%
+}
+
+#social-media {
+  padding-left: 25px;
+  float: left;
+}
 
 #social-media ul {
   list-style: none;
@@ -177,5 +182,5 @@ border: 5px dashed #FFFFFF;
 }
 
 #social-media ul li img {
-  padding: 25px;
+  padding-left: 25px;
 }
