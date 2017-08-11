@@ -100,13 +100,13 @@ header h3 {
   border: 5px dashed #ffb400;
 }
 
-#about #about-text p {
+#about #about-text {
   font-size: 25px;
   text-align: left;
 }
 
 #skills {
-  padding-top: 30px;
+  padding-top: 64px;
   clear: both;
 }
 
@@ -132,11 +132,16 @@ header h3 {
 
 #portfolio {
   display: inline-block;
+}
+
+#portfolio .container {
+  padding-top: 48px;
   padding-bottom: 48px;
 }
 
+
 .portfolio-image {
-  max-width: 85%;
+  max-width: 70%;
   height: auto;
   border: 5px solid #ffffff;
 }
