@@ -90,7 +90,7 @@ header h3 {
 #about {
   height: 800px;
   color: #184253;
-  border: 5px dashed #184253;
+  border: 5px dashed #ffb400;
 }
 
 #skills {
@@ -116,10 +116,15 @@ header h3 {
   background: #425773;
 }
 
-/*.portfolio-image {
-  width: 33%;
+#work h3 {
+  padding-bottom: 20px;
+}
+
+.portfolio-image {
+  max-width: 85%;
   height: auto;
-}*/
+  border: 3px solid #ffffff;
+}
 
 
 /**** CONTACT ****/
@@ -127,7 +132,7 @@ header h3 {
 #contact {
 height: 300px;
 padding-top: 1px;
-background: #ffcf5c;
+background: #ffb400;
 color: #184253;
 border: 5px dashed #FFFFFF;
 }
