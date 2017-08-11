@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 main {
@@ -14,19 +14,26 @@ main {
 }
 
 .container {
-  padding: 0 30px 0 30px;
+  padding-left: 45px;
   display: block;
-  clear: both;
-  max-width: 960px;
-  margin: 0 auto;
-
+  padding-bottom: 48px;
 }
 
+#about, #work, #contact {
+  height: 33%;
+  padding-top: 20px;
+  clear: both;
+}
+
+#about, #work {
+  padding-bottom: 100px;
+}
 
 h3 {
   font-family: 'pixeled';
   font-weight: normal;
   font-style: normal;
+  padding-left: 10px;
 }
 
 h4 {
@@ -34,7 +41,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 a {
@@ -48,6 +55,7 @@ a {
 
 .full-width {
   width: 100%;
+  margin 0 auto;
 }
 
 .half-width {
@@ -69,10 +77,10 @@ a {
 /**** HEADER ****/
 
 header {
-  height: 800px;
+  height: 900px;
   padding-left: 25px;
   background: url('../img/hero-image.png') no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
 }
 
@@ -88,14 +96,17 @@ header h3 {
 /**** ABOUT ****/
 
 #about {
-  height: 800px;
   color: #184253;
   border: 5px dashed #ffb400;
 }
 
+#about #about-text p {
+  font-size: 25px;
+  text-align: left;
+}
+
 #skills {
-  height: auto;
-  padding-top: 20px;
+  padding-top: 30px;
   clear: both;
 }
 
@@ -103,27 +114,31 @@ header h3 {
   font-size: 24px;
 }
 
-#about-text {
-  font-size: 25px;
-  text-align: left;
+#skills-with-icons {
+  display: inline-block;
+  padding-top: 48px;
 }
+
 
 
 /**** WORK ****/
 #work {
-  height: 600px;
-  padding: 20px;
-  background: #425773;
+  background: #184253;
 }
 
 #work h3 {
-  padding-bottom: 20px;
+  padding-bottom: 24px;
+}
+
+#portfolio {
+  display: inline-block;
+  padding-bottom: 48px;
 }
 
 .portfolio-image {
   max-width: 85%;
   height: auto;
-  border: 3px solid #ffffff;
+  border: 5px solid #ffffff;
 }
 
 
@@ -137,7 +152,15 @@ color: #184253;
 border: 5px dashed #FFFFFF;
 }
 
-#social-media {
-  float: left;
+
+#social-media ul {
+  list-style: none;
+}
+
+#social-media ul li {
   display: inline-block;
+}
+
+#social-media ul li img {
+  padding: 25px;
 }
