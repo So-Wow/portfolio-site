@@ -1,7 +1,8 @@
 /**** BASE STYLES ****/
 @font-face {
   font-family: 'pixeled';
-  src: url('../fonts/pixeled.ttf') format('truetype');
+  src: url('../fonts/pixeled.ttf') format('truetype'),
+      url('../fonts/pixeled.ttf') format('embedded-opentype');
 }
 
 body {
