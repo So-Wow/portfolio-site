@@ -2,7 +2,10 @@
 @font-face {
   font-family: 'pixeled';
   src: url('../fonts/pixeled.ttf') format('truetype'),
-      url('../fonts/pixeled.ttf') format('embedded-opentype');
+      url('../fonts/pixeled.eot') format('embedded-opentype'),
+      url('../fonts/pixeled.svg') format('svg'),
+      url('../fonts/pixeled.woff') format('woff'),
+      url('../fonts/pixeled.woff2') format('woff2');
 }
 
 body {
