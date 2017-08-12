@@ -96,7 +96,8 @@ header h3 {
 
 #about {
   color: #184253;
-  border: 5px dashed #ffb400;
+  border-top: 5px dashed #ffb400;
+  border-bottom: 5px dashed #ffb400;
 }
 
 #about .full-width {
@@ -134,6 +135,7 @@ header h3 {
 #work {
   background: #184253;
   padding-top: 10px;
+  color: white;
 }
 
 #work h3 {
@@ -161,7 +163,8 @@ header h3 {
 padding-top: 1px;
 background: #ffb400;
 color: #184253;
-border: 5px dashed #FFFFFF;
+border-top: 5px dashed #FFFFFF;
+border-bottom: 5px dashed #FFFFFF;
 }
 
 #contact .container {
